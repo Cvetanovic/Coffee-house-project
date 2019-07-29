@@ -1,265 +1,285 @@
 <!DOCTYPE html>
-<html lang="sr">
+
 <head>
-    <title>Coffe House</title>
+    <title>Coffee House</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="web,html,css,javascript,development">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
+
 <body>
-<header>
-    <div class="topnav" id="myTopnav">
-        <a class="navigation" href="#home">Home</a>
-        <a class="navigation" href="#about">About Us</a>
-        <a class="navigation" href="#coffee">Our coffee</a>
-        <a class="navigationk" href="#tea">Our tea</a>
-        <a class="navigation" href="#gallery">Our gallery</a>
-        <a class="navigation" href="#contact">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <div class="logo-responsive">
-            <img src="img/logo.png" alt="logo" >
-        </div>
-    </div>
+    <header>
+        <!-- page responsive  navigation -->
 
-    <div  class="header-content">
-        <div class="logo">
-            <img src="img/logo.png" alt="logo" >
-        </div>
-        <!-- page navigation -->
-        <nav>
-            <ul class="navigation">
-                <li class="navigation"><a class="scroll" href="#home">Home</a></li>
-                <li class="navigation"><a class="scroll" href="#about" >About Us</a></li>
-                <li class="navigation"><a class="scroll" href="#coffee">Our coffee</a></li>
-                <li class="navigation"><a class="scroll" href="#tea">Our tea</a></li>
-                <li class="navigation"><a class="scroll" href="#gallery">Our gallery</a>
-                <li class="navigation"><a class="scroll" href="#contact">Contact</a>
-            </ul>
-        </nav>
-        <!-- navigation - end-->
-    </div>
-</header>
-
-<!-- main content -->
-<div class="home-content"  id="home">  
-    <div class="top-content">
-        <h1 id="home-title" >Coffee house</h1>
-        <span class="blink">live life love coffee</span> 
-        </div>
-    </div>    
-
-<section id="about">
-    <div class="container"> 
-     <h2 class="section-title">About Us</h2>
-    <div class="section-content">  
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec nisl tincidunt, porttitor odio facilisis, egestas quam. Suspendisse vel dui hendrerit, volutpat libero quis, laoreet risus. Donec volutpat lacinia mauris vitae facilisis. Cras ac mollis ex. Sed quis libero sit amet lectus imperdiet dictum quis eget nulla. Mauris orci ante, sagittis eget scelerisque sit amet, tempus id nibh. Pellentesque vitae suscipit tortor, quis vehicula metus. Etiam risus ex, vulputate vitae mattis vel, tristique sed diam. Nam fringilla nulla at nunc maximus, vel pellentesque ante porta. In rutrum nunc id quam tincidunt, non suscipit nisi efficitur. Ut non enim at libero auctor vulputate. Pellentesque molestie porttitor sem eget scelerisque. Pellentesque vel risus auctor, fermentum tortor ut, suscipit nulla. Phasellus id scelerisque diam. Suspendisse potenti.
-        </p>
-        <img class="section-img" src="img/about-section-img.jpg" width="400px" height="350px" alt="coffee-place">
-    </div>
-        </div>
-</section>
-
-<section id="coffee">
-     <div class="container">          
-    <h2 class="section-title">Our Coffee</h2>   
-      
-    <div class="section-content">
-        <img class="section-img" src="img/coffe-section-img.jpeg" width="400px" height="350px"
-              alt="coffee">                 
-            <p class="description">Nunc sed lorem in metus venenatis tristique. Suspendisse convallis finibus lacus, in varius tellus venenatis elementum. Curabitur aliquam, dui non tincidunt semper, nisl ante dignissim nulla, eget sollicitudin est dolor at magna. Praesent interdum, magna egestas vestibulum hendrerit, sem nibh vestibulum tellus, eget tincidunt magna mi at erat. Duis a tellus dictum, hendrerit erat vel, eleifend nisi.
-            </p>        
-         </div>
-         <button id="coffee-button">Our Coffee</button>
-        <div id="coffee-slide">           
-            <div class="coffee-images">
-                <div class="coffee-image">
-                    <h3 class="blink">Ice coffee</h3> 
-            <img src="img/Ice-coffee.jpg" alt="ice-coffee">
-                    </div>                
-                 <div class="coffee-image">
-                    <h3 class="blink">Espresso</h3> 
-            <img  src="img/espreso-coffee.jpg"  alt="espreso-coffee">
-                    </div>
-                
-                 <div class="coffee-image">
-                     <h3 class="blink">Black coffee</h3>  
-            
-                      <img src="img/black-coffee.jpg" alt="black-coffee">
-                </div> 
-                </div> 
-            </div> 
-         </div>  
-  </section>                          
-      
-<section  id="tea">
-     <div class="container"> 
-    <h2 class="section-title">Our tea</h2>
-         <div class="section-content">              
-        <p class="description">Nunc sed lorem in metus venenatis tristique. Suspendisse convallis finibus lacus, in varius tellus venenatis elementum. Curabitur aliquam, dui non tincidunt semper, nisl ante dignissim nulla, eget sollicitudin est dolor at magna. Praesent interdum, magna egestas vestibulum hendrerit, sem nibh vestibulum tellus, eget tincidunt magna mi at erat. Duis a tellus dictum, hendrerit erat vel, eleifend nisi.
-        </p> 
-             <img class="section-img" src="img/tea-section-img.png"  alt="tea"> 
-                  </div> 
-         <button id="tea-button">Our Tea</button>
-         <div id="tea-slide">  
-         <div class="tea-images">
-                <div class="tea-image">
-                    <h3 class="blink">Earl Grey</h3> 
-                   <img src="img/earl-tea-img.jpg"  alt="earl-tea">                 
-                    </div>
-                
-                 <div class="tea-image">
-                     <h3 class="blink">Spicy Chai</h3> 
-                     <img  src="img/spicy-tea-img.jpg"  alt="spicy-tea">
-                
-                    </div>
-                
-                 <div class="tea-image">
-                    <h3 class="blink">Chamomile</h3>
-                      <img src="img/chamomile-tea-img.jpg"  alt="chamomile-tea">
-                
-                </div> 
-                </div>            
-         </div> 
-          </div> 
-    </section>                               
- 
-<section id="gallery">
-     <div class="container"> 
-    <h2 class="section-title">Our gallery</h2>        
-    <div class="gallery-content">        
-        <img class="gallery-img" src="img/coffee-house1.jpg" alt="coffee-place1">            
-        <img  class="gallery-img" src="img/coffee-house2.jpg"   alt="coffee-place2">
-        <img  class="gallery-img" src="img/coffee-house3.jpg"   alt="coffee-place3">
-        <img  class="gallery-img" src="img/coffee-house4.jpg"   alt="coffee-place4">
-        <img class="gallery-img"  src="img/coffee-house5.jpg"   alt="coffee-place5">
-        <img class="gallery-img"  src="img/coffee-house6.jpg"  alt="coffee-place6">
-    </div>
-    </div>
-</section>
-<!-- end - main content -->
-
-<!-- footer -->
-<footer id="contact">        
-    <div class="container">
-            <h2 class="section-title">Contact Us</h2> 
-            <form action = "/action_page.php" name = "myForm" onsubmit = "return(validate())" method="post">                  
-                       <input type="text" name="name" placeholder="Your Name">               
-                        <input type="text" name="email" placeholder="Email">                
-                <textarea name="message" rows="10" cols="50" placeholder="Message"></textarea>                  
-                <button type="submit" value="Submit">Submit</button>
-                    
-                   
-                  </form>
-    <div class="footer-content">          
-
-        <div class="info-company">
-            <div class="info">
-                <img class="info-icon" src="img/map-icon.png">
-                <span class="info-text">Adrress: 1712 Pioneer Ave, Ste 135,<br>82001 Cheyenne, USA</span>
-            </div>
-            <div class="info">
-                <img class="info-icon" src="img/phone-icon.png">
-                <span class="info-text">Phone: 000/000-000</span>
-            </div>
-            <div class="info">
-                <img class="info-icon" src="img/email-icon.png">
-                <span class="info-text">Email: <a href="mailto: office@coffee.com">office@coffee.com</a></span>
-            </div>
-        </div>
-
-        <div class="brand-company">
-            <span class="brand-text">Coffee house</span>
-            <div class="logo">
-                <img src="img/logo.png" alt="logo" >
+        <div class="topnav" id="myTopnav">
+            <button class="topnav-button">☰</button>
+            <ul>
+                <li class="top-item"><a href="#home">Home</a></li>
+                <li class="top-item"><a href="#about">About Us</a></li>
+                <li class="top-item"><a href="#coffee">Our coffee</a></li>
+                <li class="top-item"> <a href="#tea">Our tea</a></li>
+                <li class="top-item"><a href="#gallery">Our gallery</a></li>
+                <li class="top-item"> <a href="#contact">Contact</a></li>
+                <div class="logo-responsive">
+                    <img src="img/logo.png" alt="logo">
                 </div>
+            </ul>
         </div>
 
-        <div class="social-info">
-            <span class="social-title">Follow us</span>
-            <div class="social-icons">
-                <a href="" target="_blank" data-label="Facebook" rel="nofollow"><img  class="social-icon" src="img/facebook-icon.png"></a>                
-                <a href="" target="_blank" data-label="Twitter" rel="nofollow"><img  class="social-icon" src="img/twitter-icon.png"></a>
-                <a href="" target="_blank" data-label="Instagram" rel="nofollow"><img  class="social-icon" src="img/instagram-icon.png"></a>
+        <div class="header-content">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <!-- page navigation -->
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation"><a class="scroll" href="#home">Home</a></li>
+                    <li class="navigation"><a class="scroll" href="#about">About Us</a></li>
+                    <li class="navigation"><a class="scroll" href="#coffee">Our coffee</a></li>
+                    <li class="navigation"><a class="scroll" href="#tea">Our tea</a></li>
+                    <li class="navigation"><a class="scroll" href="#gallery">Our gallery</a>
+                    <li class="navigation"><a class="scroll" href="#contact">Contact</a>
+                </ul>
+            </nav>
+            <!-- end - navigation -->
+        </div>
+    </header>
+
+    <!-- main content -->
+
+    <!-- Home section -->
+    <div class="home-content" id="home">
+        <div class="top-content">
+            <h1 id="home-title">Coffee house</h1>
+            <span class="blink">live life love coffee</span>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="section-content">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec nisl tincidunt, porttitor odio facilisis, egestas quam. Suspendisse vel dui hendrerit, volutpat libero quis, laoreet risus. Donec volutpat lacinia mauris vitae facilisis. Cras ac mollis ex. Sed quis libero sit amet lectus imperdiet dictum quis eget nulla. Mauris orci ante, sagittis eget scelerisque sit amet, tempus id nibh. Pellentesque vitae suscipit tortor, quis vehicula metus. Etiam risus ex, vulputate vitae mattis vel, tristique sed diam. Nam fringilla nulla at nunc maximus, vel pellentesque ante porta. In rutrum nunc id quam tincidunt, non suscipit nisi efficitur. Ut non enim at libero auctor vulputate. Pellentesque molestie porttitor sem eget scelerisque. Pellentesque vel risus auctor, fermentum tortor ut, suscipit nulla. Phasellus id scelerisque diam. Suspendisse potenti.
+                </p>
+                <img class="section-img" src="img/about-section-img.jpg" width="400px" height="350px" alt="coffee-place">
             </div>
         </div>
-    </div>  
-</div>      
+    </section>
 
-    <div class="footer-bottom">
-        <div class="bottom-content">
-            <span class="left-text">Copyright &copy Coffee house 2019</span>
-            <span class="right-text">Powered by <a href="">Web Development</a>
-    </span>
+    <!-- Coffee section -->
+    <section id="coffee">
+        <div class="container">
+            <h2 class="section-title">Our Coffee</h2>
+
+            <div class="section-content">
+                <img class="section-img" src="img/coffe-section-img.jpeg" alt="coffee">
+                <p class="description">Nunc sed lorem in metus venenatis tristique. Suspendisse convallis finibus lacus, in varius tellus venenatis elementum. Curabitur aliquam, dui non tincidunt semper, nisl ante dignissim nulla, eget sollicitudin est dolor at magna. Praesent interdum, magna egestas vestibulum hendrerit, sem nibh vestibulum tellus, eget tincidunt magna mi at erat. Duis a tellus dictum, hendrerit erat vel, eleifend nisi.
+                </p>
+            </div>
+            <button id="coffee-button">Our Coffee</button>
+            <div id="coffee-slide">
+                <div class="slide-images">
+                    <div class="slide-image">
+                        <h3 class="blink">Ice coffee</h3>
+                        <img src="img/Ice-coffee.jpg" alt="ice-coffee">
+                    </div>
+                    <div class="slide-image">
+                        <h3 class="blink">Espresso</h3>
+                        <img src="img/espreso-coffee.jpg" alt="espreso-coffee">
+                    </div>
+
+                    <div class="slide-image">
+                        <h3 class="blink">Black coffee</h3>
+
+                        <img src="img/black-coffee.jpg" alt="black-coffee">
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>        
-</footer>
-<!-- end- footer -->
+    </section>
 
-<script>
-   function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-    
-    
-    $(document).ready(function(){  
-  $("a").on('click', function(event) {   
-    if (this.hash !== "") {      
-      event.preventDefault();      
-      var hash = this.hash;      
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){   
-       
-        window.location.hash = hash;
-      });
-    } 
-  });
-});
-    
-  $(document).ready(function(){
-    $("#tea-button").click(function(){
-        $("#tea-slide").slideToggle("slow");
-    });
-});
-    
-    $(document).ready(function(){
-    $("#coffee-button").click(function(){
-        $("#coffee-slide").slideToggle("slow");
-    });
-});    
+    <!-- Tea section -->
+    <section id="tea">
+        <div class="container">
+            <h2 class="section-title">Our tea</h2>
+            <div class="section-content">
+                <p class="description">Nunc sed lorem in metus venenatis tristique. Suspendisse convallis finibus lacus, in varius tellus venenatis elementum. Curabitur aliquam, dui non tincidunt semper, nisl ante dignissim nulla, eget sollicitudin est dolor at magna. Praesent interdum, magna egestas vestibulum hendrerit, sem nibh vestibulum tellus, eget tincidunt magna mi at erat. Duis a tellus dictum, hendrerit erat vel, eleifend nisi.
+                </p>
+                <img class="section-img" src="img/tea-section-img.png" alt="tea">
+            </div>
+            <button id="tea-button">Our Tea</button>
+            <div id="tea-slide">
+                <div class="slide-images">
+                    <div class="slide-image">
+                        <h3 class="blink">Earl Grey</h3>
+                        <img src="img/earl-tea-img.jpg" alt="earl-tea">
+                    </div>
 
-// Form validation
-function validate() {      
-      if( document.myForm.name.value == "" ) {
-         alert( "Please provide your  Name!" );         
-         return false;
-      }  
+                    <div class="slide-image">
+                        <h3 class="blink">Spicy Chai</h3>
+                        <img src="img/spicy-tea-img.jpg" alt="spicy-tea">
 
-      if( document.myForm.email.value == "" ) {
-         alert( "Please provide your Email!" );       
-         return false;
-      }           
-      return true;
-   }
-</script>  
-    
- 
-   
-    
-   
+                    </div>
+
+                    <div class="slide-image">
+                        <h3 class="blink">Chamomile</h3>
+                        <img src="img/chamomile-tea-img.jpg" alt="chamomile-tea">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our gallery</h2>
+            <div class="gallery-content">
+                <img class="gallery-img" src="img/coffee-house1.jpg" alt="coffee-place1">
+                <img class="gallery-img" src="img/coffee-house2.jpg" alt="coffee-place2">
+                <img class="gallery-img" src="img/coffee-house3.jpg" alt="coffee-place3">
+                <img class="gallery-img" src="img/coffee-house4.jpg" alt="coffee-place4">
+                <img class="gallery-img" src="img/coffee-house5.jpg" alt="coffee-place5">
+                <img class="gallery-img" src="img/coffee-house6.jpg" alt="coffee-place6">
+            </div>
+        </div>
+    </section>
+
+    <!-- end - main content -->
+
+    <!-- footer -->
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form action="/action_page.php" name="myForm" onsubmit="return(validate())" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="text" name="email" placeholder="Your Email">
+                <textarea name="message" rows="10" cols="50" placeholder="Message"></textarea>
+                <button type="submit" onclick="correct()" value="Submit">Submit</button>
+            </form>
+            <div class="footer-content">
+                <div class="brand-company">
+                    <span class="brand-text">Coffee house</span>
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                </div>
+
+                <div class="info-company">
+                    <div class="info">
+                        <img class="info-icon" src="img/map-icon.png">
+                        <span class="info-text">Adrress:</span>
+                    </div>
+                    <div class="info">
+                        <img class="info-icon" src="img/phone-icon.png">
+                        <span class="info-text">Phone: 000/000-000</span>
+                    </div>
+                    <div class="info">
+                        <img class="info-icon" src="img/email-icon.png">
+                        <span class="info-text">Email: <a href="mailto: office@coffee.com">office@coffee.com</a></span>
+                    </div>
+                </div>
+
+                <div class="social-info">
+                    <span class="social-title">Follow us</span>
+                    <div class="social-icons">
+                        <a href="" target="_blank" data-label="Facebook" rel="nofollow"><img class="social-icon" src="img/facebook-icon.png"></a>
+                        <a href="" target="_blank" data-label="Twitter" rel="nofollow"><img class="social-icon" src="img/twitter-icon.png"></a>
+                        <a href="" target="_blank" data-label="Instagram" rel="nofollow"><img class="social-icon" src="img/instagram-icon.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <div class="bottom-content">
+                <span class="left-text">Copyright &copy Coffee house 2019</span>
+                <span class="right-text">Powered by <a href="">Web Development</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- end - footer -->
+
+    <script>
+        // responsive navigation 
+        $(document).ready(function() {
+            $(".topnav-button").click(function() {
+                if ($(".topnav-button").text() == "☰") {
+                    $(".topnav-button").text("🞬");
+                } else {
+                    $(".topnav-button").text("☰");
+                }
+                $(".top-item").toggle("slow");
+            });
+        });
+
+        // Smooth scroll to page section 
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+        // Sliding effect on elements    
+        $(document).ready(function() {
+            $("#tea-button").click(function() {
+                $("#tea-slide").slideToggle("slow");
+            });
+        });
+
+        $(document).ready(function() {
+            $("#coffee-button").click(function() {
+                $("#coffee-slide").slideToggle("slow");
+            });
+        });
+
+        //Form validation /
+        function validate() {
+            if (document.myForm.name.value == "") {
+                alert("Please provide your Name!");
+                return false;
+            }
+
+            if (document.myForm.email.value == "") {
+                alert("Please provide your Email!");
+                return false;
+            }
+
+            if (document.myForm.message.value == "") {
+                alert("Please provide your Message!");
+                return false;
+            }
+            return true;
+        }
+
+        function correct() {
+            if (validate()) {
+                alert("Success")
+            }
+        }
+
+    </script>
+
 
 </body>
+
 </html>
