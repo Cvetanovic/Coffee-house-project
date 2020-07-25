@@ -68,6 +68,7 @@ p {
 }
 
 section {
+    min-height: 100vh;
     margin: 0;
     padding: 40px 0;
     background: #f4e7c4;
@@ -139,6 +140,7 @@ header {
     border-bottom: 0 solid #cccccc;
     background: #f4e7c4;
     z-index: 1;
+    border-bottom: 2px solid #442d25;
 }
 
 
